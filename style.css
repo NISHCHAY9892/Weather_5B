@@ -1,0 +1,51 @@
+body{
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#app{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top right,rgba(115, 116, 201, 0.986), rgba(108, 108, 236, 0.479));
+    border-radius: 7rem;
+}
+h1{
+    text-align: center;
+    margin: 1rem;
+    font-size: 3rem;
+}
+#weatherResult{
+    margin: 1rem;
+}
+#fetchWeather{
+    margin: 0.1rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(197, 94, 94);
+}
+#cityInput{
+    margin: 0.5rem;
+    width: 16rem;
+    height: 2rem;
+    border-radius: 1rem;
+    padding-left: 1rem
+}
+p{
+    margin: 0%;
+    font-size: 2rem;
+}
+.p1{
+    margin: 0.1rem;
+}
